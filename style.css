@@ -30,6 +30,16 @@ body {
   max-width: 560px;
 }
 
+.eyebrow {
+  margin: 0 0 18px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--slate);
+  font-weight: 500;
+  line-height: 1.6;
+}
+
 .name {
   margin: 0;
   font-family: "Cormorant Garamond", Georgia, serif;
@@ -68,6 +78,19 @@ body {
   font-size: 15px;
   letter-spacing: 0.04em;
   color: var(--slate);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.divider {
+  color: var(--slate);
+  font-size: 13px;
 }
 
 .contact {
